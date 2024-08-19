@@ -1,0 +1,9 @@
+.caDoList li {
+  list-style: disc;
+  font-size: 20px;
+  margin: auto;
+}
+.caDoList li::marker {
+  color: #337dc1;
+  font-size: 50px;
+}
