@@ -89,13 +89,14 @@
   border-color: #337dc1 transparent transparent transparent;
 }
 .page6 img {
-  border: #337dc1 solid 3px;
   display: flex;
 }
 .a img {
+  border: #337dc1 solid 3px;
   width: 1000px;
 }
 .b img {
   width: 305px;
   float: right;
+  border: #337dc1 solid 3px;
 }
