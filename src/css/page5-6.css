@@ -1,14 +1,5 @@
 @charset "UTF-8";
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  list-style-type: none;
-}
-
 .page5 h2 {
   text-align: center;
   color: #337dc1;
@@ -24,7 +15,87 @@ li {
   max-width: 100%;
   color: #ffffff;
   font-size: 16px;
-  background: #FFF;
+  background: #fff;
   border: solid 3px #555;
   box-sizing: border-box;
+}
+/*from here is the page 6*/
+.title {
+  width: 100%;
+}
+.title h1 {
+  font-size: 3rem;
+  color: #337dc1;
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 3%;
+  text-align: center;
+  margin: auto;
+}
+.drug {
+  font-size: 1.5rem;
+  display: flex;
+  color: white;
+  margin-top: 40px;
+  width: 100%;
+  margin-bottom: 150px;
+}
+.drug h3 {
+  background-color: #337dc1;
+  text-align: center;
+  position: relative;
+  padding: 10px 15px 10px 15px;
+  background-position: 50%;
+}
+.left {
+  margin-left: 100px;
+}
+.right {
+  margin-left: 20px;
+
+  padding-left: 20px;
+  margin: auto;
+}
+.left h3 {
+  margin: auto;
+  width: 450px;
+  margin-bottom: 20px;
+}
+.right h3 {
+  padding: 0 10px 0 5px;
+  width: 380px;
+  float: right;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.left h3::after {
+  content: "";
+  position: absolute;
+  bottom: -auto; /* Ajustez la position verticale de la flèche */
+  left: 50%;
+  transform: translateX(-50%) translateY(30%);
+  border-width: 60px 30px 60px 30px;
+  border-style: solid;
+  border-color: #337dc1 transparent transparent transparent;
+  z-index: 2;
+}
+.right h3::after {
+  content: "";
+  position: absolute;
+  bottom: -auto; /* Ajustez la position verticale de la flèche */
+  left: 62%;
+  transform: translateX(100%) translateY(50%);
+  border-width: 30px 15px 30px 15px;
+  border-style: solid;
+  border-color: #337dc1 transparent transparent transparent;
+}
+.page6 img {
+  border: #337dc1 solid 3px;
+  display: flex;
+}
+.a img {
+  width: 1000px;
+}
+.b img {
+  width: 305px;
+  float: right;
 }
