@@ -1,7 +1,11 @@
+
+
 .car img {
+  display: flex;
+  flex: 100%;
   width: 64%;
   border: #337dc1 solid 3px;
-  display: flex;
+  margin: auto;
   margin-top: 7%;
   margin-left: 7%;
   margin-bottom: 10%;
@@ -60,19 +64,19 @@
   position: absolute;
   background-color: #337dc1;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 15px;
 }
 /*down left*/
 .page8 p:nth-child(3n + 3) {
   margin-top: 40%;
-  margin-left: 22%;
+  margin-left: 18%;
 }
 .page8 p:nth-child(3n + 3):after {
   content: "";
   position: absolute;
   left: 90%;
-  transform: translateX(100%) translateY(-40%) rotate(270deg);
+  transform: translateX(100%) translateY(-30%) rotate(270deg);
   border-width: 80px 30px 10px 10px;
   border-style: solid;
   border-color: #337dc1 transparent transparent transparent;
@@ -93,15 +97,15 @@
 }
 /*right*/
 .page8 p:nth-child(3n + 2) {
-  margin-top: 5%;
-  margin-left: 68%;
+  margin-top: 10%;
+  margin-left: 70%;
 }
 .page8 p:nth-child(3n + 2):after {
   content: "";
   position: absolute;
-  left: -10%;
-  transform: translateX(100%) translateY(30%) rotate(33deg);
-  border-width: 80px 30px 10px 10px;
+  left: -21%;
+  transform: translateX(100%) translateY(40%) rotate(26deg);
+  border-width: 75px 25px 10px 10px;
   border-style: solid;
   border-color: #337dc1 transparent transparent transparent;
 }

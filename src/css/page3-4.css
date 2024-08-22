@@ -57,11 +57,12 @@ table th {
 table th {
   position: relative;
   text-align: center;
-  width: 30%;
+  width: 50%;
   background-color: #337dc1;
   color: white;
   text-align: center;
   padding: 20px 0;
+  font-size: 1rem;
 }
 
 table th:after {
@@ -74,15 +75,15 @@ table th:after {
   right: -10px;
   border-left: 10px solid #337dc1;
   border-top: 40px solid transparent;
-  border-bottom: 45px solid transparent;
+  border-bottom: 50px solid transparent;
 }
 
 table td {
   text-align: left;
-  width: 70%;
+  width: 50%;
   text-align: center;
   background-color: #fff;
   padding: 10px 0;
   font-weight: bolder;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }

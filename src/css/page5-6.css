@@ -1,45 +1,24 @@
-@charset "UTF-8";
-
-.page5 h2 {
-  text-align: center;
-  color: #337dc1;
-  font-size: 2.5rem;
-}
-
-.ballon1 {
-  position: relative;
-  display: inline-block;
-  margin: 1.5em 0;
-  padding: 7px 10px;
-  min-width: 120px;
-  max-width: 100%;
-  color: #ffffff;
-  font-size: 16px;
-  background: #fff;
-  border: solid 3px #555;
-  box-sizing: border-box;
-}
-/*from here is the page 6*/
 .title {
   width: 100%;
 }
 .title h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #337dc1;
   border-bottom: 1px solid #d3d3d3;
   padding-bottom: 3%;
   text-align: center;
   margin: auto;
 }
+
 .drug {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   display: flex;
   color: white;
-  margin-top: 40px;
+  margin-top: 5%;
   width: 100%;
-  margin-bottom: 150px;
+  margin-bottom: 10%;
 }
-.drug h3 {
+.drug p {
   background-color: #337dc1;
   text-align: center;
   position: relative;
@@ -47,27 +26,28 @@
   background-position: 50%;
 }
 .left {
-  margin-left: 100px;
+  margin-left: 10%;
 }
 .right {
-  margin-left: 20px;
+  margin-left: 3%;
 
   padding-left: 20px;
   margin: auto;
 }
-.left h3 {
+.left p {
   margin: auto;
-  width: 450px;
+  width: 50%;
   margin-bottom: 20px;
 }
-.right h3 {
+.right p {
+  position: absolute;
   padding: 0 10px 0 5px;
-  width: 380px;
-  float: right;
+  width: 20%;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 10%;
+  margin-left: 10%;
 }
-.left h3::after {
+.left p::after {
   content: "";
   position: absolute;
   bottom: -auto; /* Ajustez la position verticale de la flèche */
@@ -78,7 +58,7 @@
   border-color: #337dc1 transparent transparent transparent;
   z-index: 2;
 }
-.right h3::after {
+.right p::after {
   content: "";
   position: absolute;
   bottom: -auto; /* Ajustez la position verticale de la flèche */
@@ -93,10 +73,17 @@
 }
 .a img {
   border: #337dc1 solid 3px;
-  width: 1000px;
+  width: 110%;
 }
 .b img {
-  width: 305px;
-  float: right;
+margin-left: 30%;
+  margin-top: 17%;
+  width: 44%;
   border: #337dc1 solid 3px;
 }
+@media(max-width: 768px) {
+
+  .b img {
+  margin-top: 60%;
+  }
+  }
