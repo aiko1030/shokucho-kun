@@ -1,0 +1,166 @@
+.introduction {
+  text-align: center;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.introduction img {
+  width: 400px;
+}
+
+.introduction-group {
+  display: flex;
+}
+
+.group1,
+.group2,
+.group3 {
+  background-color: #D7E5F3;
+  border-radius: 10px;
+  width: 40%;
+  margin-left: 5%;
+  padding: 1%;
+  margin-top: 20px;
+}
+
+.group3 {
+  background-color: #D7E5F3;
+  border-radius: 10px;
+  width: 45%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.group1 .b-a,
+.group2 .b-a,
+.group3 .b-a {
+  display: flex;
+  justify-content: center;
+}
+
+.group1 .b-a p,
+.group2 .b-a p,
+.group3 .b-a p {
+  color: #fff;
+}
+
+.group1 p,
+.group2 p,
+.group3 p {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.group1 .before,
+.group2 .before,
+.group3 .before {
+  background-color: #337dc1;
+  padding: 3%;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.group1 .arrow,
+.group2 .arrow,
+.group3 .arrow {
+  width: 90px;
+  padding-left: 25px;
+}
+
+.group1 .after,
+.group2 .after,
+.group3 .after {
+  margin-left: 40px;
+  background-color: #337dc1;
+  padding: 3%;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.group1 h3,
+.group2 h3,
+.group3 h3 {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  color: #337dc1;
+}
+
+
+.price {
+  text-align: center;
+  border-bottom: 1px solid #d3d3d3;
+  margin-bottom: 20px;
+}
+
+.price img {
+  width: 400px;
+}
+
+.pricecard {
+  background-color: #337dc1;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.pricecard p {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.pricecard .monthlyprice {
+  font-size: 2rem;
+}
+
+.pricecard .monthlyprice span {
+  font-size: 8rem;
+  font-weight: bolder;
+}
+
+.attention{
+  margin: auto;
+  margin-left: 20%;
+}
+
+.attention li {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.pricetable {
+ width: 70%;
+ text-align: center;
+ border-collapse: collapse;
+ border-spacing: 0;
+ margin: auto;
+ white-space: nowrap;
+}
+
+.pricetable th {
+ padding: 20px;
+ border: solid 5px #337dc1;
+ background-color: #ffffff;
+ color: #333;
+ font-size: 1.5rem;
+}
+.pricetable td {
+ padding: 20px;
+ border: solid 5px #337dc1;
+ color: #333;
+ font-size: 1.5rem;
+}
+
+.pricetable th:last-child {
+  color:#337dc1;
+  font-weight: bolder;
+  font-size: 1.7rem;
+}
+
+.fatN td:nth-child(4n+2){
+font-size: 2rem;
+}.fatN td:nth-child(4n+3){
+  font-size: 2rem;
+  }.fatN td:nth-child(4n+4){
+    font-size: 2rem;
+    }

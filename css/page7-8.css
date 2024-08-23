@@ -1,0 +1,111 @@
+
+
+.car img {
+  display: flex;
+  flex: 100%;
+  width: 64%;
+  border: #337dc1 solid 3px;
+  margin: auto;
+  margin-top: 7%;
+  margin-left: 7%;
+  margin-bottom: 10%;
+}
+.car img:nth-child(2) {
+  position: absolute;
+  margin-top: -30%;
+  margin-left: 57%;
+  width: 35%;
+}
+.page7 p {
+  position: absolute;
+  background-color: #337dc1;
+  color: white;
+  font-size: 1.5rem;
+  padding: 15px;
+  margin: auto;
+  margin-top: -48%;
+  margin-left: 73%;
+}
+.page7 p:nth-child(2) {
+  margin-top: 48%;
+  margin-left: 42%;
+}
+
+.page7 p:nth-child(2):after {
+  transform: translateX(630%) translateY(-90%) rotate(240deg);
+}
+.page7 p::after {
+  content: "";
+  position: absolute;
+  bottom: -auto; /* Ajustez la position verticale de la flèche */
+  left: -10%;
+  transform: translateX(100%) translateY(30%) rotate(33deg);
+  border-width: 80px 30px 10px 10px;
+  border-style: solid;
+  border-color: #337dc1 transparent transparent transparent;
+}
+
+.page8 {
+  display: block;
+  margin: auto;
+}
+.page8 h1 {
+  margin-bottom: 6%;
+}
+
+.map1 img {
+  width: 30%;
+  margin: auto;
+  margin-bottom: 6%;
+  display: flex;
+  border: #337dc1 solid 3px;
+}
+.page8 p {
+  position: absolute;
+  background-color: #337dc1;
+  color: white;
+  font-size: 1.5rem;
+  padding: 15px;
+}
+/*down left*/
+.page8 p:nth-child(3n + 3) {
+  margin-top: 40%;
+  margin-left: 18%;
+}
+.page8 p:nth-child(3n + 3):after {
+  content: "";
+  position: absolute;
+  left: 90%;
+  transform: translateX(100%) translateY(-30%) rotate(270deg);
+  border-width: 80px 30px 10px 10px;
+  border-style: solid;
+  border-color: #337dc1 transparent transparent transparent;
+}
+/*up left*/
+.page8 p:nth-child(3n + 1) {
+  margin-top: 0%;
+  margin-left: 18%;
+}
+.page8 p:nth-child(3n + 1):after {
+  content: "";
+  position: absolute;
+  left: 90%;
+  transform: translateX(100%) translateY(-40%) rotate(270deg);
+  border-width: 80px 30px 10px 10px;
+  border-style: solid;
+  border-color: #337dc1 transparent transparent transparent;
+}
+/*right*/
+.page8 p:nth-child(3n + 2) {
+  margin-top: 10%;
+  margin-left: 70%;
+}
+.page8 p:nth-child(3n + 2):after {
+  content: "";
+  position: absolute;
+  left: -21%;
+  transform: translateX(100%) translateY(40%) rotate(26deg);
+  border-width: 75px 25px 10px 10px;
+  border-style: solid;
+  border-color: #337dc1 transparent transparent transparent;
+}
