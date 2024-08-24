@@ -72,19 +72,6 @@
     font-size: 0.8rem;
   }
 
-  table th:after {
-    display: block;
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    top: -1px;
-    right: -10px;
-    border-left: 10px solid #337dc1;
-    border-top: 40px solid transparent;
-    border-bottom: 45px solid transparent;
-  }
-
   table td {
     text-align: left;
     width: 50%;
@@ -215,17 +202,6 @@
   .caDoList li::marker {
     font-size: 30px;
   }
-  table th::after {
-    content: "";
-    width: 10px;
-    height: 0px;
-    position: absolute;
-    top: 2px;
-    left: 99%;
-    border-left: 20px solid #337dc1;
-    border-top: 40px solid transparent;
-    border-bottom: 50px solid transparent;
-  }
   .page4 h2 {
     text-align: center;
     color: #337dc1;
@@ -268,19 +244,6 @@
     color: white;
     text-align: center;
     font-size: 0.8rem;
-  }
-
-  table th:after {
-    display: block;
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    top: 1px;
-    right: -10px;
-    border-left: 10px solid #337dc1;
-    border-top: 45px solid transparent;
-    border-bottom: 56px solid transparent;
   }
 
   table td {
@@ -526,17 +489,6 @@
   .caDoList li::marker {
     font-size: 30px;
   }
-  table th::after {
-    content: "";
-    width: 10px;
-    height: 0px;
-    position: absolute;
-    top: 2px;
-    left: 99%;
-    border-left: 20px solid #337dc1;
-    border-top: 40px solid transparent;
-    border-bottom: 50px solid transparent;
-  }
 
   /**/
   .page4 h2 {
@@ -581,19 +533,6 @@
     color: white;
     text-align: center;
     font-size: 0.8rem;
-  }
-
-  table th:after {
-    display: block;
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    top: 1px;
-    right: -10px;
-    border-left: 10px solid #337dc1;
-    border-top: 45px solid transparent;
-    border-bottom: 56px solid transparent;
   }
 
   table td {
@@ -839,17 +778,7 @@
   .caDoList li::marker {
     font-size: 30px;
   }
-  table th::after {
-    content: "";
-    width: 10px;
-    height: 0px;
-    position: absolute;
-    top: 2px;
-    left: 99%;
-    border-left: 20px solid #337dc1;
-    border-top: 40px solid transparent;
-    border-bottom: 50px solid transparent;
-  }
+
   .page4 h2 {
     text-align: center;
     color: #337dc1;
@@ -892,19 +821,6 @@
     color: white;
     text-align: center;
     font-size: 0.8rem;
-  }
-
-  table th:after {
-    display: block;
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    top: 1px;
-    right: -10px;
-    border-left: 10px solid #337dc1;
-    border-top: 45px solid transparent;
-    border-bottom: 56px solid transparent;
   }
 
   table td {
