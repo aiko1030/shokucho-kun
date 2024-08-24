@@ -200,6 +200,28 @@
   }
 }
 @media (max-width: 360px) {
+  .side-bar {
+    background-color: #337dc1;
+    height: 40vh;
+    width: 50px;
+    margin-left: 0;
+    float: left;
+    padding-left: 0;
+  }
+  .caDoList li::marker {
+    font-size: 30px;
+  }
+  table th::after {
+    content: "";
+    width: 10px;
+    height: 0px;
+    position: absolute;
+    top: 2px;
+    left: 99%;
+    border-left: 20px solid #337dc1;
+    border-top: 40px solid transparent;
+    border-bottom: 50px solid transparent;
+  }
   .page4 h2 {
     text-align: center;
     color: #337dc1;
@@ -794,6 +816,28 @@
   }
 }
 @media (max-width: 412px) {
+  .side-bar {
+    background-color: #337dc1;
+    height: 40vh;
+    width: 50px;
+    margin-left: 0;
+    float: left;
+    padding-left: 0;
+  }
+  .caDoList li::marker {
+    font-size: 30px;
+  }
+  table th::after {
+    content: "";
+    width: 10px;
+    height: 0px;
+    position: absolute;
+    top: 2px;
+    left: 99%;
+    border-left: 20px solid #337dc1;
+    border-top: 40px solid transparent;
+    border-bottom: 50px solid transparent;
+  }
   .page4 h2 {
     text-align: center;
     color: #337dc1;
