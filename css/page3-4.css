@@ -34,7 +34,7 @@
   background-color: #337dc1;
 }
 
-table {
+.concern table {
   width: 100%;
   padding: 8%;
   margin: 0 auto;
@@ -43,18 +43,18 @@ table {
   border-spacing: 0px 15px;
 }
 
-table th,
-table td {
+.concern table th,
+.concern table td {
   padding: 10px;
 }
 
-table th {
+.concern table th {
   vertical-align: middle;
   position: relative;
   border: solid 3px #fff;
 }
 
-table th {
+.concern table th {
   position: relative;
   text-align: center;
   width: 50%;
@@ -65,8 +65,7 @@ table th {
   font-size: 1rem;
 }
 
-
-table td {
+.concern table td {
   text-align: left;
   width: 50%;
   text-align: center;
@@ -74,4 +73,14 @@ table td {
   padding: 10px 0;
   font-weight: bolder;
   font-size: 1rem;
+}
+.concern th::after {
+  content: "";
+  position: absolute;
+  bottom: 32%; /* Ajustez la position verticale de la flèche */
+  left: 99.3%;
+  transform: translateX(0%) translateY(30%) rotate(270deg);
+  border-width: 40px 50px 40px 40px;
+  border-style: solid;
+  border-color: #337dc1 transparent transparent transparent;
 }
