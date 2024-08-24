@@ -1055,8 +1055,10 @@
     bottom: 30%; /* Ajustez la position verticale de la flèche */
     left: 99.3%;
     transform: translateX(0%) translateY(30%) rotate(270deg);
-    border-width: 50px 69px 88px 69px;
+    border-width: 20px 69px 118px 69px;
     border-style: solid;
     border-color: #337dc1 transparent transparent transparent;
   }
+  .concern table td {
+padding-left: 5%; }
 }
