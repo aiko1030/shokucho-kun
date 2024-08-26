@@ -14,7 +14,6 @@
   .group3 {
     background-color: #d7e5f3;
     border-radius: 10px;
-
     width: 100%;
     padding: 2%;
     margin-top: 20px;
@@ -95,6 +94,15 @@
     overflow-x: scroll;
     scrollbar-width: auto;
     scrollbar-color: #337dc1, #ffffff;
+  }
+  .map1 p:nth-child(3n + 3) {
+    margin-left: 73%;
+  }
+  .map1 p:nth-child(3n + 1)  {
+margin-left: 8%;
+  }
+  .map1 p:nth-child(3n + 2){
+    margin-left: 4%;
   }
 }
 @media screen and (max-width: 412px){
