@@ -8,6 +8,13 @@ function adjustMain() {
       paragraphs[i].style.fontSize = size.toString() + "rem";
     }
   };
+const titleSizeAdjust = (size) => {
+const titles = document.getElementsByTagName("h1");
+for (let i = 0; i < titles.length; i++) {
+titles[i].style.fontSize = size.toString() + "rem";
+}
+}
+
 
   // Media queries for device screen size detection
   const desktopQuery = window.matchMedia("(min-width: 1100px)");
@@ -25,18 +32,25 @@ function adjustMain() {
       // Desktop view adjustments
       div.style.width = "100%";
       paragraphsSizeAdjust(1.5);
+      titleSizeAdjust(4);
+
     } else if (tabletQuery.matches) {
       // Tablet view adjustments
       div.style.width = "100%";
       paragraphsSizeAdjust(1);
+      titleSizeAdjust(3);
+
     } else if (mobileQuery.matches) {
       // Mobile view adjustments
       div.style.width = "100%";
       paragraphsSizeAdjust(0.75);
+      titleSizeAdjust(2);
+
     } else if (smallMobileQuery.matches) {
       // Small mobile view adjustments
       div.style.width = "100%";
       paragraphsSizeAdjust(0.5);
+      titleSizeAdjust(2);
     }
   });
 }

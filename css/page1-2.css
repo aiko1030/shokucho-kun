@@ -3,13 +3,15 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "游ゴシック" "ヒラギノ角ゴ ProN";
+  font-family: "游ゴシック", "ヒラギノ角ゴ ProN";
 }
 
 li {
   list-style-type: none;
 }
-
+header {
+  width: 100%;
+}
 .main-visual {
   display: flex;
 }
@@ -22,11 +24,12 @@ li {
 .main-visual img {
   margin-top: 50%;
   width: 100%;
+  margin-bottom: 50%;
 }
 
 .side-bar {
   background-color: #337dc1;
-  height: 100vh;
+  height: auto;
   width: 200px;
   margin-left: 0;
   float: left;
@@ -95,6 +98,7 @@ li {
 
 .cicleImg {
   text-align: center;
+  width: 100%;
 }
 .cicleImg img {
   width: 50%;

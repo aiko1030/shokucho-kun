@@ -4,11 +4,13 @@
 }
 
 .introduction img {
-  width: 80%;
+  width: 40%;
+  flex-direction: column;
 }
 
 .introduction-group {
-  display: flex;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr); 
   max-width: 90%;
   margin: auto;
 }
@@ -18,24 +20,24 @@
 .group3 {
   background-color: #d7e5f3;
   border-radius: 10px;
-  width: 30%;
   padding: 1%;
   margin-top: 10%;
+  margin-right: 5%;
 }
 
 .group3 {
   background-color: #d7e5f3;
   border-radius: 10px;
-  width: 45%;
   margin: auto;
   margin-top: 10%;
+  
 }
 
 .group1 .b-a,
 .group2 .b-a,
 .group3 .b-a {
   display: flex;
-  justify-content: center;
+  margin: auto;
 }
 
 .group1 .b-a p,
@@ -98,7 +100,7 @@
 }
 
 .price img {
-  width: 80%;
+  width: 50%;
 }
 
 .pricecard {
