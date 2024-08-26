@@ -1,0 +1,97 @@
+@media (max-width: 1100px) {
+  .introduction img {
+    width: 80%;
+  }
+
+  .introduction-group {
+    flex-direction: column;
+  }
+
+  .group1,
+  .group2,
+  .group3 {
+    background-color: #d7e5f3;
+    border-radius: 10px;
+    width: 100%;
+    margin: 3%;
+    padding: 2%;
+    margin-top: 20px;
+  }
+
+  .price img {
+    width: 250px;
+  }
+
+  .pricecard {
+    background-color: #337dc1;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    padding: 2%;
+  }
+
+  .pricecard p {
+    color: #ffffff;
+    font-size: 1.2rem;
+  }
+
+  .pricecard .monthlyprice {
+    font-size: 1.5rem;
+  }
+
+  .pricecard .monthlyprice span {
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+
+  .attention {
+    margin: auto;
+  }
+
+  .pricetable {
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: auto 3%;
+    white-space: nowrap;
+  }
+
+  .pricetable th {
+    padding: 10px;
+    border: solid 3px #337dc1;
+    background-color: #ffffff;
+    color: #333;
+    font-size: 1.2rem;
+  }
+
+  .pricetable td {
+    padding: 10px;
+    border: solid 3px #337dc1;
+    color: #333;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  .pricetable th:last-child {
+    color: #337dc1;
+    font-weight: bolder;
+    font-size: 1.2rem;
+  }
+  
+  .fatN td:nth-child(4n + 2) {
+    font-size: 1.4rem;
+  }
+
+  .fatN td:nth-child(4n + 3) {
+    font-size: 1.4rem;
+  }
+
+  .fatN td:nth-child(4n + 4) {
+    font-size: 1.4rem;
+  }
+  .scroll {
+    overflow-x: scroll;
+    scrollbar-width: auto;
+    scrollbar-color: #337dc1, #ffffff;
+  }
+}

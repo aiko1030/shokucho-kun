@@ -1,52 +1,69 @@
-
-
-.car img {
+.page7 {
   display: flex;
+  flex-direction: column;
+}
+.car {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
   flex: 100%;
-  width: 64%;
+  margin-left: 3%;
+}
+.car img {
   border: #337dc1 solid 3px;
   margin: auto;
-  margin-top: 7%;
-  margin-left: 7%;
-  margin-bottom: 10%;
 }
-.car img:nth-child(2) {
-  position: absolute;
-  margin-top: -30%;
-  margin-left: 57%;
-  width: 35%;
+.car1 img {
+  width: 100%;
+}
+.car2 img {
+  width: 70%;
+  margin-left: -25%;
+  margin-top: 50%;
 }
 .page7 p {
   position: absolute;
   background-color: #337dc1;
   color: white;
   font-size: 1.5rem;
-  padding: 15px;
-  margin: auto;
-  margin-top: -48%;
-  margin-left: 73%;
-}
-.page7 p:nth-child(2) {
-  margin-top: 48%;
-  margin-left: 42%;
 }
 
-.page7 p:nth-child(2):after {
-  transform: translateX(630%) translateY(-90%) rotate(240deg);
-}
-.page7 p::after {
-  content: "";
+.car2 p,
+.car1 p {
   position: absolute;
-  bottom: -auto; /* Ajustez la position verticale de la flèche */
-  left: -10%;
-  transform: translateX(100%) translateY(30%) rotate(33deg);
-  border-width: 80px 30px 10px 10px;
-  border-style: solid;
-  border-color: #337dc1 transparent transparent transparent;
+  background-color: #337dc1;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1%;
+}
+.car1 p {
+  margin-top: -30%;
+  margin-left: 60%;
+}
+.car2 p {
+  margin-top: -5%;
+  margin-left: -28%;
+}
+.car2 svg {
+  position: absolute;
+  top: 0px;
+  right: -30px;
+  width: 30px;
+  height: 100%;
+}
+.car1 svg {
+  position: absolute;
+  top: 0px;
+  right: 100%;
+  width: 30px;
+  height: 100%;
 }
 
 .page8 {
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin: auto;
 }
 .page8 h1 {
@@ -67,45 +84,41 @@
   font-size: 1.5rem;
   padding: 15px;
 }
-/*down left*/
-.page8 p:nth-child(3n + 3) {
-  margin-top: 40%;
-  margin-left: 18%;
-}
-.page8 p:nth-child(3n + 3):after {
-  content: "";
-  position: absolute;
-  left: 90%;
-  transform: translateX(100%) translateY(-30%) rotate(270deg);
-  border-width: 80px 30px 10px 10px;
-  border-style: solid;
-  border-color: #337dc1 transparent transparent transparent;
-}
-/*up left*/
-.page8 p:nth-child(3n + 1) {
-  margin-top: 0%;
-  margin-left: 18%;
-}
-.page8 p:nth-child(3n + 1):after {
-  content: "";
-  position: absolute;
-  left: 90%;
-  transform: translateX(100%) translateY(-40%) rotate(270deg);
-  border-width: 80px 30px 10px 10px;
-  border-style: solid;
-  border-color: #337dc1 transparent transparent transparent;
-}
 /*right*/
-.page8 p:nth-child(3n + 2) {
-  margin-top: 10%;
+.map1 p:nth-child(3n + 3) {
+  margin-top: -55%;
   margin-left: 70%;
 }
-.page8 p:nth-child(3n + 2):after {
-  content: "";
+.map1 p:nth-child(3n + 3) svg {
   position: absolute;
-  left: -21%;
-  transform: translateX(100%) translateY(40%) rotate(26deg);
-  border-width: 75px 25px 10px 10px;
-  border-style: solid;
-  border-color: #337dc1 transparent transparent transparent;
+  top: 0px;
+  right: 100%;
+  width: 30px;
+  height: 100%;
+}
+
+/*down left*/
+.map1 p:nth-child(3n + 1) {
+  margin-top: -25%;
+  margin-left: 18%;
+}
+.map1 p:nth-child(3n + 1) svg {
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  width: 30px;
+  height: 100%;
+}
+
+/*up left*/
+.map1 p:nth-child(3n + 2) {
+  margin-top: -60%;
+  margin-left: 15%;
+}
+.map1 p:nth-child(3n + 2) svg {
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  width: 30px;
+  height: 100%;
 }

@@ -48,23 +48,6 @@
   padding: 10px;
 }
 
-.concern table th {
-  vertical-align: middle;
-  position: relative;
-  border: solid 3px #fff;
-}
-
-.concern table th {
-  position: relative;
-  text-align: center;
-  width: 50%;
-  background-color: #337dc1;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 1rem;
-}
-
 .concern table td {
   text-align: left;
   width: 50%;
@@ -73,14 +56,28 @@
   padding: 10px 0;
   font-weight: bolder;
   font-size: 1rem;
+  padding-left: 10%;
+  padding-right: 5%;
 }
-.concern th::after {
-  content: "";
+.concern table th {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  border: solid 3px #fff;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: #337dc1;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1rem;
+}
+
+.arrow svg {
   position: absolute;
-  bottom: 32%; /* Ajustez la position verticale de la flèche */
-  left: 99.3%;
-  transform: translateX(0%) translateY(30%) rotate(270deg);
-  border-width: 40px 50px 40px 40px;
-  border-style: solid;
-  border-color: #337dc1 transparent transparent transparent;
+  top: 0px;
+  right: -30px;
+  width: 30px;
+  height: 100%;
 }

@@ -1,3 +1,7 @@
+.page6 {
+  display: flex;
+  flex-direction: column;
+}
 .title {
   width: 100%;
 }
@@ -12,7 +16,8 @@
 
 .drug {
   font-size: 1.7rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns */
   color: white;
   margin-top: 5%;
   width: 100%;
@@ -27,10 +32,12 @@
 }
 .left {
   margin-left: 10%;
+  max-width: 80%;
+  float: left;
 }
 .right {
   margin-left: 3%;
-
+  max-width: 50%;
   padding-left: 20px;
   margin: auto;
 }
@@ -42,48 +49,83 @@
 .right p {
   position: absolute;
   padding: 0 10px 0 5px;
-  width: 20%;
+  width: 40%;
   margin: auto;
-  margin-bottom: 10%;
-  margin-left: 10%;
+  margin-left: 0%;
 }
+.right p {
+  position: relative;
+  padding: 20px;
+  background-color: #337dc1; /* Adjust the background color to match the border */
+  color: white;
+  z-index: 2;
+}
+
+.left p::before {
+  content: "";
+  position: absolute;
+  bottom: -20px; /* Adjust the position to control the arrow placement */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 20px 20px 0 20px; /* Creates the downward arrow */
+  border-style: solid;
+  border-color: #337dc1 transparent transparent transparent; /* Matches the background */
+  z-index: 1;
+}
+
 .left p::after {
   content: "";
   position: absolute;
-  bottom: -auto; /* Ajustez la position verticale de la flèche */
+  bottom: -20px; /* Adjust to match with ::before */
   left: 50%;
-  transform: translateX(-50%) translateY(30%);
-  border-width: 60px 30px 60px 30px;
+  transform: translateX(-50%) translateY(100%);
+  border-width: 10px 10px 0 10px; /* Smaller arrow */
   border-style: solid;
-  border-color: #337dc1 transparent transparent transparent;
+  border-color: transparent transparent transparent transparent; /* White color for the inner arrow */
   z-index: 2;
 }
+
+.right p {
+  position: relative;
+  padding: 10px;
+  background-color: #337dc1; /* Adjust the background color to match the border */
+  color: white;
+  z-index: 2;
+}
+
+.right p::before {
+  content: "";
+  position: absolute;
+  bottom: -20px; /* Adjust the position to control the arrow placement */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 20px 20px 0 20px; /* Creates the downward arrow */
+  border-style: solid;
+  border-color: #337dc1 transparent transparent transparent; /* Matches the background */
+  z-index: 1;
+}
+
 .right p::after {
   content: "";
   position: absolute;
-  bottom: -auto; /* Ajustez la position verticale de la flèche */
-  left: 62%;
-  transform: translateX(100%) translateY(50%);
-  border-width: 30px 15px 30px 15px;
+  bottom: -20px; /* Adjust to match with ::before */
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+  border-width: 10px 10px 0 10px; /* Smaller arrow */
   border-style: solid;
-  border-color: #337dc1 transparent transparent transparent;
+  border-color: transparent transparent transparent transparent; /* White color for the inner arrow */
+  z-index: 2;
 }
+
 .page6 img {
   display: flex;
 }
-.a img {
+.left img {
   border: #337dc1 solid 3px;
   width: 110%;
 }
-.b img {
-margin-left: 30%;
-  margin-top: 17%;
-  width: 44%;
+.right img {
+  margin-top: 5%;
+  width: 60%;
   border: #337dc1 solid 3px;
 }
-@media(max-width: 768px) {
-
-  .b img {
-  margin-top: 60%;
-  }
-  }
