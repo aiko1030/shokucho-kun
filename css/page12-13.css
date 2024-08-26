@@ -4,11 +4,13 @@
 }
 
 .introduction img {
-  width: 400px;
+  width: 80%;
 }
 
 .introduction-group {
   display: flex;
+  max-width: 90%;
+  margin: auto;
 }
 
 .group1,
@@ -17,9 +19,8 @@
   background-color: #d7e5f3;
   border-radius: 10px;
   width: 30%;
-  margin-left: 5%;
   padding: 1%;
-  margin-top: 20px;
+  margin-top: 10%;
 }
 
 .group3 {
@@ -27,7 +28,7 @@
   border-radius: 10px;
   width: 45%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 10%;
 }
 
 .group1 .b-a,
@@ -67,7 +68,8 @@
 .group1 .arrow,
 .group2 .arrow,
 .group3 .arrow {
-  width: 90px;
+  width: 10%;
+  max-height: 10%;
   padding-left: 25px;
 }
 
@@ -92,11 +94,11 @@
 .price {
   text-align: center;
   border-bottom: 1px solid #d3d3d3;
-  margin-bottom: 20px;
+  margin-bottom: 10%;
 }
 
 .price img {
-  width: 400px;
+  width: 80%;
 }
 
 .pricecard {
