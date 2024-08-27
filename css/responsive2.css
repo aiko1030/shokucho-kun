@@ -1,5 +1,4 @@
 @media (max-width: 1100px) {
-
   .introduction img {
     width: 80%;
   }
@@ -18,6 +17,10 @@
     padding: 2%;
     margin-top: 20px;
   }
+  .group3 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
 
   .price img {
     width: 80%;
@@ -26,7 +29,7 @@
   .pricecard {
     background-color: #337dc1;
     border-radius: 10px;
-    width: 90%;
+    width: 70%;
     margin: auto;
     padding: 2%;
   }
@@ -78,7 +81,7 @@
     font-weight: bolder;
     font-size: 1.2rem;
   }
-  
+
   .fatN td:nth-child(4n + 2) {
     font-size: 1.4rem;
   }
@@ -98,21 +101,22 @@
   .map1 p:nth-child(3n + 3) {
     margin-left: 73%;
   }
-  .map1 p:nth-child(3n + 1)  {
-margin-left: 8%;
+  .map1 p:nth-child(3n + 1) {
+    margin-left: 8%;
   }
-  .map1 p:nth-child(3n + 2){
+  .map1 p:nth-child(3n + 2) {
     margin-left: 4%;
   }
 }
-@media screen and (max-width: 412px){
+@media screen and (max-width: 412px) {
   .pricecard {
     width: 50%;
   }
-  .capable img, .explaination img {
+  .capable img,
+  .explaination img {
     width: 80%;
   }
-  .page4 h2{
+  .page4 h2 {
     font-size: 1.8rem;
   }
   .caDoList {
@@ -121,16 +125,17 @@ margin-left: 8%;
   .caDoList li {
     line-height: 100%;
   }
-  .cicleImg  img, .workimg img{
+  .cicleImg img,
+  .workimg img {
     width: 80%;
   }
   .map1 p:nth-child(3n + 3) {
     margin-left: 73%;
   }
-  .map1 p:nth-child(3n + 1)  {
-margin-left: 8%;
+  .map1 p:nth-child(3n + 1) {
+    margin-left: 8%;
   }
-  .map1 p:nth-child(3n + 2){
+  .map1 p:nth-child(3n + 2) {
     margin-left: 4%;
   }
 }

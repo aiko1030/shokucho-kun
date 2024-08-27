@@ -9,8 +9,8 @@
 }
 
 .introduction-group {
-  display:grid;
-  grid-template-columns: repeat(2, 1fr); 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   max-width: 90%;
   margin: auto;
 }
@@ -26,11 +26,12 @@
 }
 
 .group3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
   background-color: #d7e5f3;
-  border-radius: 10px;
+  border-radius: 5%;
   margin: auto;
   margin-top: 10%;
-  
 }
 
 .group1 .b-a,
