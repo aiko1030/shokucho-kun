@@ -145,4 +145,7 @@
     height: 60px;
     margin: auto;
   }
+  .groupe2 .b-a p before {
+    font-size: 1px;
+  }
 }
