@@ -138,4 +138,11 @@
   .map1 p:nth-child(3n + 2) {
     margin-left: 4%;
   }
+  .group1 .arrow,
+  .group2 .arrow,
+  .group3 .arrow {
+    width: 30px;
+    height: 60px;
+    margin: auto;
+  }
 }
