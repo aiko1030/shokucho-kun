@@ -11,11 +11,16 @@
 .introduction-group {
   display: flex;
   flex-direction: column;
-  max-width: 90%;
-  margin: auto;
+  margin-top: 10%;
+}
+.introduction-group img {
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
 }
 
-.group1,
+/*.group1,
 .group2,
 .group3 {
   background-color: #d7e5f3;
@@ -25,14 +30,14 @@
   margin-right: 5%;
 }
 
-/* .group3 {
+.group3 {
   grid-column-start: 1;
   grid-column-end: 3;
   background-color: #d7e5f3;
   border-radius: 5%;
   margin: auto;
   margin-top: 10%;
-} */
+}
 
 .group1 .b-a,
 .group2 .b-a,
@@ -92,7 +97,7 @@
   font-size: 1.6rem;
   font-weight: bolder;
   color: #337dc1;
-}
+} */
 
 .price {
   text-align: center;
@@ -177,4 +182,14 @@
 }
 .page15 {
   margin-bottom: 10%;
+}
+.page16 {
+  flex: auto;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+.policy {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
 }
